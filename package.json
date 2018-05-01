@@ -1,0 +1,40 @@
+{
+    "name": "MyGulp",
+    "version": "1.1.0",
+    "author": "Bogdan Ezhlov <12deathwing12@gmail.com>",
+    "repository": {
+        "type": "git",
+        "url": "https://aleksander-mangierowski@bitbucket.org/aleksander-mangierowski/bogdanenv.git"
+    },
+    "main": "gulpfile.js",
+    "license": "MIT",
+    "scripts": {
+        "gulp": "./node_modules/.bin/gulp"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "autoprefixer": "^7.1.4",
+        "babel-plugin-transform-remove-strict-mode": "^0.0.2",
+        "babel-preset-env": "^1.6.1",
+        "browser-sync": "^2.18.13",
+        "gulp": "github:gulpjs/gulp#4.0",
+        "gulp-babel": "^6.1.2",
+        "gulp-cssnano": "^2.1.2",
+        "gulp-eslint": "^3.0.1",
+        "gulp-file-include": "^1.1.0",
+        "gulp-if": "^2.0.2",
+        "gulp-imagemin": "^3.3.0",
+        "gulp-postcss": "6.0.0",
+        "gulp-rename": "^1.2.2",
+        "gulp-sass": "^3.1.0",
+        "gulp-size": "^2.1.0",
+        "gulp-sourcemaps": "^2.6.0",
+        "gulp-uglify": "^2.1.2",
+        "postcss-assets": "^4.1.0",
+        "postcss-flexbugs-fixes": "^3.0.0",
+        "postcss-reporter": "^3.0.0",
+        "postcss-scss": "^1.0.2",
+        "postcss-strip-inline-comments": "^0.1.5",
+        "stylelint": "^7.10.1"
+    }
+}
